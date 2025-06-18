@@ -1,0 +1,21 @@
+ #include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    int p,r,y;
+    float si,d,e,f;
+    scanf("%d%d%d",&p,&r,&y);
+    si=(p*r*y)/100;
+    d=si+p;
+    e=(si*2)/100;
+    
+    f=d-e;
+    printf("%.2f\n%.2f\n%.2f\n%.2f\n",si,d,e,(float)f);
+
+    return 0;
+}
