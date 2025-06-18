@@ -1,0 +1,18 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+
+    int l,b,a,b1;
+    scanf("%d%d",&l,&b);
+    b1=(l+b)*2;
+    a=l*b;
+    printf("%d\n",b1);
+    printf("%d",a);
+    return 0;
+}
