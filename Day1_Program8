@@ -1,0 +1,23 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    
+    float a;
+    int b,c,d,t;
+    scanf("%f%d%d%d",&a,&b,&c,&d);
+    int q,r,p;
+    q=floor(a);
+    r=ceil(a);
+    p=sqrt(b);
+t=pow(c,d);
+    printf("%d\n%d\n%d\n%d\n",q,r,p,t);
+    
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    return 0;
+}
