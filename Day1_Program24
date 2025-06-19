@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+   
+    int base,height,s1,s2,s3;
+    scanf("%d%d%d%d%d",&base,&height,&s1,&s2,&s3);
+    printf("Area of Triangle is %.2f",(float)(0.5*base*height));
+    printf("\nPerimeter of Triangle is %.2f",(float)(s1+s2+s3));
+    
+    
+    return 0;
+}
