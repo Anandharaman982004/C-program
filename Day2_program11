@@ -12,7 +12,7 @@ int main() {
     scanf("%d%d%d",&h,&m,&s);
     int exmin=s/60;
     s=s%60;
-    //m+=exmin;
+    m+=exmin;
     m=m+exmin;
     
     int exhr=m/60;
