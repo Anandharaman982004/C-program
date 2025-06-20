@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    char b;
+    scanf("%c",&b);
+    
+    if(b=='a'|| b=='e'||b==('i')||b==('o')||b==('u')||b==('A')||b==('E')||b==('I')||b==('O')||b==('U'))
+    {
+        printf("The Character %c is Vowel",b);
+    }
+    else
+    {
+       printf("The Character %c is Consonant",b);
+    }
+    return 0;
+}
