@@ -1,0 +1,28 @@
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    int lw,bw,lp1,bp1,lp2,bp2;
+    int wall,p1,p2;
+    scanf("%d%d%d%d%d%d",&lw,&bw,&lp1,&bp1,&lp2,&bp2);
+    wall=2*(lw+bw);
+    p1=2*(lp1+bp1);
+    p2=2*(lp2+bp2);
+    if(wall>=(p1+p2))
+    {
+        printf("Raj can fix both painting");
+    }
+    else
+    {
+        printf("Raj cannot fix both painting");
+    }
+    
+    
+    return 0;
+}
